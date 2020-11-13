@@ -1,0 +1,14 @@
+{
+	"name": "CodeSpace",
+	"build": {
+		"dockerfile": "Dockerfile",
+		"context": "..",
+		// Update 'VARIANT' to pick a Python version: 3, 3.6, 3.7, 3.8 
+		"args": { "VARIANT": "3.6" }
+	},
+
+	// Add the IDs of extensions you want installed when the container is created.
+	"extensions": [
+		"ms-python.python"
+	]
+}
