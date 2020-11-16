@@ -1,4 +1,4 @@
-ARG VARIANT="3"
+ARG VARIANT="3.6"
 FROM mcr.microsoft.com/vscode/devcontainers/python:0-${VARIANT}
 
 # [Optional] Allow the vscode user to pip install globally w/o sudo
