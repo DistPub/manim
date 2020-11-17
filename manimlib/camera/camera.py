@@ -287,6 +287,7 @@ class Camera(object):
         fw = self.get_frame_width()
         fh = self.get_frame_height()
         fc = self.get_frame_center()
+        print(f'pw:{pw}, ph:{ph}')
         surface = cairo.ImageSurface.create_for_data(
             pixel_array,
             cairo.FORMAT_ARGB32,
